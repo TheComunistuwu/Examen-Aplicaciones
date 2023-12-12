@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@300&display=swap');
+
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'blinker', sans-serif;
+  color: #1a1a1a;
+}
+
+.container{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(135deg, #3498db 0%, #ffffff 25%, #ffffff 70%, #f39c12 100%);
+}
+
+.contenido{
+  min-height: 90vh;
+  width: 100%;
+}
+
+.menu{
+  min-height: 10vh;
+  background-color: #f9f5f2;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  //border: 1px blue solid;
+  position: sticky;
+  bottom: 0;
+  filter: drop-shadow(0px -3px 4px #a9a9a9);
+}
+
+.boton1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  ion-icon{
+    font-size: 1.6rem;
+    color: #F7B512;
+  }
+  h3{
+    font-size: .9rem;
+    margin: 0;
+  }
+}
+
+.boton2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  ion-icon{
+    font-size: 1.6rem;
+    color: #042E54;
+  }
+  h3{
+    font-size: .9rem;
+    margin: 0;
+  }
+}
+
+.arriba{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 5% 0 0;
+  padding: 10px 20px;
+
+}
+
+.arriba {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Resto de los estilos... */
+}
+
+.arriba img {
+  max-width: 100%;
+  height: auto;
+}
+
+#botons{
+  text-decoration: none;
+  margin-top: 8px;
+}
+
+.centro{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+}
+
+.button1{
+  text-align: center;
+  button{
+  background-color: #F7B512;
+  color: #ffff;
+  height: 2.4rem;
+  width: 82%;
+  margin-top: 50px;
+  }
+  
+}
+
+
+
+.button2{
+  text-align: center;
+  button{
+  background-color: #042E54;
+  color: #ffff;
+  height: 2.4rem;
+  width: 82%;
+  margin-top: 50px;
+  }
+
+}
+
+.button3{
+  text-align: center;
+  button{
+  background-color: #042E54;
+  color: #ffff;
+  height: 2.4rem;
+  width: 82%;
+  margin-top: 50px;
+  }
+  
+
+  a{
+    color: #ffff;
+    text-decoration: none;
+    height: 2.4rem;
+    width: 82%;
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'blinker', sans-serif;
+  }
+  }

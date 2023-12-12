@@ -1,0 +1,31 @@
+<ion-content [fullscreen]="true">
+  <div id="contenido">
+    <h1>Mis Asistencias</h1>
+    <ion-select [(ngModel)]="filtroRamo">
+      <ion-select-option value="Todos">Todos</ion-select-option>
+      <ion-select-option value="Aplicaciones moviles">Aplicaciones moviles</ion-select-option>
+      <ion-select-option value="Base de Datos">Base de Datos</ion-select-option>
+      <ion-select-option value="Mat">Matematica</ion-select-option>
+      <!-- Agrega opciones para otros ramos disponibles -->
+    </ion-select>
+    <table>
+      <tr>
+        <th>Fecha</th>
+        <th>Bloques</th>
+        <th>Numero</th>
+        <th>Ramo</th>
+        <th>Estado</th>
+      </tr>
+      <tr *ngFor="let asist of asistencias ">
+        <td>{{asist.fecha}}</td>
+        <td>{{asist.bloques}}</td>
+        <td>{{asist.numero}}</td>
+        <td>{{asist.ramo}}</td>
+        <td><ion-icon name="checkmark-done-outline" color="success"></ion-icon></td>
+
+      </tr>
+    </table>
+    <h4 [routerLink]="['/qr']">Nueva</h4>
+  </div>
+  
+  </ion-content>

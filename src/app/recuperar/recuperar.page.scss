@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@300&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'blinker', sans-serif;
+    color: #1a1a1a;
+}
+
+.container{
+    //background: #F9F5F2;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(135deg, #3498db 0%, #ffffff 25%, #ffffff 70%, #f39c12 100%)
+}
+
+
+h1{
+    text-align: left;
+    margin: 0 20px 0;
+    font-weight: bolder;
+    font-size: 1.8rem;
+    padding: 30% 0 5px;
+}
+
+h3{
+  text-align: left;
+  color: #C1C1C1;
+  padding: 10px;
+  margin: 0 10px 0;
+  font-size: .7rem; 
+}
+
+.recuperar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 45px 0 0;
+    justify-content: center;
+    row-gap: 10px;
+    width: 90%;
+}
+
+input{
+    border: none;
+    outline: none;
+    width: 90%;
+    height: 2.4rem;
+    border-bottom: 1.7px solid #C1C1C1;
+    background: transparent;
+    //border-radius: 1.2rem;
+
+}
+
+button{
+    background-color: #042E54;
+    color: #ffff;
+    height: 2.4rem;
+    width: 82%;
+    margin-top: 60px;
+    border-radius: 15px;
+}
+
+.registro-link{
+    font-size: .8rem;
+    text-align: center;
+    width: 90%;
+    margin-top: 100px;
+}
+
+.registro-link a{
+    font-weight: 600;
+    padding-left: 10px;
+    text-decoration: none;
+
+}

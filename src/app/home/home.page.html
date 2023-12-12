@@ -1,0 +1,40 @@
+<ion-content [fullscreen]="true">
+  <div class="container">
+    <div class="contenido">
+      <div class="arriba">
+        <img src="assets/duoc.png" alt="">
+      </div>
+      <div class="centro">
+        <div class="button1">
+          <button (click)="paginaAsistencia()">Asistencias</button>
+        </div>
+        <div class="button2">
+          <button (click)="paginaQr()">Scanner QR</button>
+        </div> 
+        <div class="button3">
+          <button>
+          <a href="https://www.instagram.com/duoc_melipilla/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==">Red Social</a>
+        </button>
+        </div> 
+      </div>
+    </div>
+    <div class="menu">
+
+      <a (click)="paginaUsuario()" id="botons" >
+        <div class="boton2">
+          <ion-icon name="person"></ion-icon>
+          <h3>Perfil</h3>
+        </div>
+      </a>
+      <div style="margin-top: 10px;">
+           
+        <a (click)="compartirApp()" id="botons" >
+          <div class="boton2">
+            <ion-icon name="person"></ion-icon>
+            <h3>Compartir</h3>
+          </div>
+        </a>
+    </div>
+  </div>
+</div>
+</ion-content>

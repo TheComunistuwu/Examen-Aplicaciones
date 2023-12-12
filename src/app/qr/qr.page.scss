@@ -1,0 +1,33 @@
+#contenido{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background: linear-gradient(45deg, #3498db 0%rgba(255, 255, 255, 0)ff 25%, #ffffff00 75%, #f39d12 100%);
+}
+
+#botones{
+    display: flex;
+    justify-content: space-evenly;
+    height: 3rem;
+    width: 100%;
+}
+
+button{
+    height: 2rem;
+    width: 40%;
+    background-color: #F7B512;
+    
+}
+
+h4{
+    color: #ffffff;
+    background-color: #042E54;
+    width: 55%;
+    height: 1.9rem;
+    text-align: center;
+    margin-top: 45px;
+    border-radius: 15px;
+}

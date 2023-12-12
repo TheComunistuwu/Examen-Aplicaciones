@@ -1,0 +1,20 @@
+<ion-content [fullscreen]="true">
+  <div class="container">
+    <h1>Bienvenido 
+    <br>a Duoc Uc</h1>
+    <h3>Creemos una cuenta</h3>
+    <div class="signup">
+      <input type="email"    [(ngModel)]="correo"  id="email" placeholder="Correo Electronico">
+      <input type="text"     [(ngModel)]="nombre"  id="user" placeholder="Nombre Estudiante">
+      <input type="text"     [(ngModel)]="usuario" id="user" placeholder="Nombre de Usuario">
+      <input type="password" [(ngModel)]="clave"   id="clave" placeholder="Contraseña">
+      <input type="password" [(ngModel)]="clave"   id="clave" placeholder="Confirmar Contraseña">
+     </div> 
+    <button (click)="registrar()">Registrate</button>
+ 
+    <div class="registro-link">
+     <span>Tienes una cuenta?</span>
+     <a (click)="paginaLogin()">Inicia sesión</a>
+    </div>
+   </div>
+</ion-content>

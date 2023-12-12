@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'blinker', sans-serif;
+    color: #1a1a1a;
+}
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(135deg, #3498db 0%, #ffffff 25%, #ffffff 70%, #f39c12 100%)
+    
+}
+
+h1{
+    text-align: left;
+    margin: 0 20px 0;
+    font-weight: bolder;
+    font-size: 1.5rem;    
+    padding: 30% 0 5px;
+    position: relative;
+  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+  font-family: 'Alfa Slab One', cursive;
+  position: relative;
+  display: inline-block;
+  text-transform: uppercase;
+  animation: waviy 5s infinite;
+  animation-delay: calc(.1s * var(--i));
+
+}
+
+h3{
+    text-align: left;
+    color: #C1C1C1;
+    padding: 25px;
+    margin: 0 10px 0;
+    font-size: .8rem; 
+  }
+
+  input{
+      border: none;
+      outline: none;
+      height: 2.4rem;
+      width: 90%;
+      border-bottom: 1.7px solid #C1C1C1;
+      background: transparent; 
+  }
+  
+  button{
+      background-color: #F7B512;
+      height: 2.4rem;
+      width: 82%;
+      margin-top: 40px;
+      border-radius: 15px;
+      background-color: #F7B512;
+
+
+      
+  }
+  
+  .signup{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      row-gap: 35px;
+      width: 90%;
+  
+  }
+
+.registro-link{
+    font-size: .8rem;
+    text-align: center;
+    width: 90%;
+    margin-top: 30px;
+}
+
+.registro-link a{
+    font-weight: 600;
+    padding-left: 10px;
+    text-decoration: none;
+    
+}
+
+
+@keyframes waviy {
+  0%,40%,100% {
+    transform: translateY(0)
+  }
+  20% {
+    transform: translateY(-20px)
+  }
+}

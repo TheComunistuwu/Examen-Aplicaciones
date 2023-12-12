@@ -1,0 +1,54 @@
+//@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@300&display=swap');
+
+
+*{
+padding: 0;
+margin: 0;
+font-family: 'blinker', sans-serif;
+color: #ffffff;
+}
+
+#contenido{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background: linear-gradient(135deg, #3498db 0%, #ffffff 25%, #ffffff 70%, #f39c12 100%);
+}
+
+table{
+    width: 100%;
+
+}
+
+th{
+    background-color: #042E54;
+}
+
+th, td{
+    border: 1px #d3d3d3 solid;
+}
+
+td{
+    color: black;
+}
+
+ion-con{
+    font-size: 2rem;
+}
+
+h1{
+    color: black;
+}
+
+h4{
+    color: black;
+    background-color: #F7B512;
+    height: 1.7rem;
+    width: 25%;
+    text-align: center;
+    margin-top: 45px;
+    border-radius: 15px;
+}

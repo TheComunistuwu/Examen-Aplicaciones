@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@300&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'blinker', sans-serif;
+    color: #1a1a1a;
+}
+
+.lista{
+    display: flex;
+    justify-content: space-between;
+
+}
+.estado{
+    display: flex;
+    justify-content: space-between;
+}
